@@ -6,3 +6,58 @@ header{
     background-color: rgb(69, 69, 250);
     color: white;
 }
+
+
+.content{
+    min-height: 400px;
+
+
+    .train-code-container{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(48, 48, 249);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        font-size: 26px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .train-info{
+        display: flex;
+        justify-content: space-between;
+
+        .location{
+            padding: 5px 20px;
+    
+            .departure{
+                font-weight: 800;
+                font-size: 20px;
+            }
+        }
+
+        .carriages{
+            padding: 5px 20px;
+            text-align: center;
+
+            .number{
+                font-weight: 800;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    .departure-container{
+        text-align: center;
+        margin-top: 20px;
+
+        .departure-title{
+            font-size: 20px;
+            font-weight: 800;
+        }
+    }
+}
+
